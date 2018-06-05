@@ -73,7 +73,7 @@ subroutine Comps(compoundName, CompoundSigmaProfile, Rtotal, Qtotal)
     sigmaProfile = 0
 
     ! Opens the archive to read
-    open(unit=10, file='lib\FSAC1-comps.csv', status='old', action='read')
+    open(unit=10, file='pars/FSAC1-comps.csv', status='old', action='read')
 
     ! Starts n and name
     n = 0
@@ -179,7 +179,7 @@ subroutine subGroups(SubGroupName,Q_pos, Q_neg, Q_zero, sigma_pos, sigma_neg, Rk
     ! -----------------------------------------------------
 
     ! Opens the archive to read
-    open(unit=11, file='lib\FSAC1-subgroups.csv', status='old', action='read')
+    open(unit=11, file='pars/FSAC1-subgroups.csv', status='old', action='read')
 
     ! Initiates n and raeds Group's name
     n = 0
@@ -228,7 +228,7 @@ subroutine Groups(GroupName, Qk, Q_pos, Q_neg, Q_zero, sigma_pos, sigma_neg, HBa
     ! -----------------------------------------------------
 
     ! Opens the archive to read
-    open(unit=12, file='lib\FSAC1-groups.csv', status='old', action='read')
+    open(unit=12, file='pars/FSAC1-groups.csv', status='old', action='read')
 
     ! Starts n and reads Group's name
     n = 0

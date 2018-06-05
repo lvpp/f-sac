@@ -164,7 +164,7 @@ subroutine deltaW_HB_reader
     integer :: ierror, n, i
     character :: header
 
-    open(unit = 13, file = "lib\FSAC1-wHB.csv", status = "old", action = "read")
+    open(unit = 13, file = "pars/FSAC1-wHB.csv", status = "old", action = "read")
 
     n = 0
     ierror = 0
