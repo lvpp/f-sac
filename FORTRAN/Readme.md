@@ -12,38 +12,25 @@
 
  Authors: Luiz Felipe Kusler Possani
           Rafael de Pelegrini Soares
+ --------------------------------------------------------------------------------
 
- This is a demonstration code, for more efficient implementations
- please contact rafael@enq.ufrgs.br.
+This is a demonstration code for binary mixtures onlye, for more efficient
+implementations please contact rafael.pelegrini [at] ufrgs.br.
 
  PLEASE CITE AS
    * Soares and Gerber (2013), Ind. Eng. Chem. Res. DOI:10.1021/ie400170a;
    * Soares et al. (2013), Ind. Eng. Chem. Res. DOI:10.1021/ie4013979.
---------------------------------------------------------------------------------
 
-This folder contains:
+The **src** folder contains FORTRAN source code.
 
- - License.txt - license file;
+The resulting executable can compute activity coefficients with the F-SAC model
+for multi-component mixtures. For binary mixtures, in particular, a VLE diagram
+can also be optionally computed.
 
- - FSAC1.exe - program executable. Insert the number of components in mixture, their respective names, system's temperature (constant) and composition. The program computes components' activity coefficients (gamma) in mixture. If a binary mixture is inserted, the program computes gamma profile by varying one component molar fraction from 0 to 1. Also, if component's vapour pressures are inserted, it computes the system's total pressure and vapour composition in equilibrium with the liquid phase;
+The **pars** folder contains the model parameters for a limited number of
+of substances.
 
- - lib - contains the following files:
-
-  * FSAC1-comps.csv - contains name, the subgroups which the molecule is divided and other information; 
- 
-  * FSAC1-subgroups.csv - contains the group that the subgroup belongs and the subgroup's volume and superficial area;
-
-  * FSAC1-groups.csv - contains the positive and negative areas and information about what fraction of superficial area makes hydrogen bonds;
-  
-  * FSAC1-wHB.csv - contains energy of hydrogen bonding for pairs of groups.
-
-The following files are created during program execution (only for binary mixtures):
-
- - Gamma.dat - gamma profile;
-
- - PressureProfile.csv - pressure profile (if the vapour pressures are inserted - if not, this file is not created).
-
-Source files:
+More details for the included source files:
 
  - Main.f90 - the main program. This can be modified or replaced in case of using this model implementation in another program; 
 
