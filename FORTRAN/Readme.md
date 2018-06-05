@@ -1,20 +1,4 @@
---------------------------------------------------------------------------------
- Copyright (c) 2011-2013, Federal University of Rio Grande do Sul
- All rights reserved.
-
- This software is subject to a BSD License, please see the License.txt
- file for more information.
-
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
- ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
- WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
- DISCLAIMED.
-
- Authors: Luiz Felipe Kusler Possani
-          Rafael de Pelegrini Soares
- --------------------------------------------------------------------------------
-
-This is a demonstration code for binary mixtures onlye, for more efficient
+This is a demonstration FORTRAN code for the F-SAC model, for more efficient
 implementations please contact rafael.pelegrini [at] ufrgs.br.
 
  PLEASE CITE AS
@@ -42,3 +26,4 @@ More details for the included source files:
 
  - RaoultPressure.f90 - computes the system's total pressure and vapour composition in equilibrium with the liquid phase (constant temperature). It uses modified Raoult's law. 
 
+Authors: Luiz Felipe Kusler Possani, Rafael de Pelegrini Soares
