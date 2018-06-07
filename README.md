@@ -1,5 +1,4 @@
-# F-SAC
-Functional-Segment Activity Coefficient model
+# F-SAC - Functional-Segment Activity Coefficient model
 
 The F-SAC model is an activity coefficient model for mixtures. Its purpose is similar to the UNIFAC model.
 
