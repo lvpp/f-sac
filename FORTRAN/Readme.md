@@ -1,11 +1,8 @@
-This is a demonstration FORTRAN code for the F-SAC model, for more efficient
-implementations please contact rafael.pelegrini [at] ufrgs.br.
+This is a demonstration FORTRAN code for the [F-SAC](https://github.com/lvpp/f-sac) model.
 
- PLEASE CITE AS
-   * Soares and Gerber (2013), Ind. Eng. Chem. Res. DOI:10.1021/ie400170a;
-   * Soares et al. (2013), Ind. Eng. Chem. Res. DOI:10.1021/ie4013979.
+For more efficient implementations please contact rafael.pelegrini [at] ufrgs.br.
 
-The **src** folder contains FORTRAN source code.
+PLEASE CITE THE RELEVANT LITERATURE AS DETAILED [HERE](https://github.com/lvpp/f-sac)
 
 The resulting executable can compute activity coefficients with the F-SAC model
 for multi-component mixtures. For binary mixtures, in particular, a VLE diagram
