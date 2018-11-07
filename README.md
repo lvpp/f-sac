@@ -15,3 +15,4 @@ The relevant literature is:
  - [Mutual Solubilities of Hydrocarbon-Water Systems with F-SAC](http://dx.doi.org/10.1016/j.fluid.2014.10.026). Fluid Phase Equilibria, v. 25, p. 122-133, 2014.
  - [Including dispersive interactions in the F-SAC model](http://dx.doi.org/10.1016/j.fluid.2016.02.043). Fluid Phase Equilibria, v. 426, p. 56-64, 2016
  - [Prediction of water solubilities in hydrocarbons and oils using F-SAC coupled with SRK-EoS](http://dx.doi.org/10.1016/j.fluid.2016.08.001). Fluid Phase Equilibria, v. 427, p. 394-405, 2016.
+ - [Extension of the F-SAC model to ionic liquids](https://doi.org/10.1016/j.fluid.2018.08.018). Fluid Phase Equilibria, v. 477, p. 87-97, 2018.
